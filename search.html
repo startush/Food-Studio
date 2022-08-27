@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Studio-Search Food</title>
+
+    <!-- Font awesome library -->
+    <script src="https://kit.fontawesome.com/abe0982d48.js" crossorigin="anonymous"></script>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+    
+
+    <!-- favicon -->
+    <link rel="icon" type="image/png" href="./images/favicon.png" />
+    
+    <!-- custom CSS -->
+    <link rel="stylesheet" href="./CSS/search.css">
+    
+
+</head>
+
+<body>
+
+    <!-- bootstrap template header -->
+    <header>
+        <div class="bg-dark collapse" id="navbarHeader" >
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-8 col-md-7 py-4">
+                        <h4 class="text-white">About</h4>
+                        <p class="text-muted">This webpage has created for the cook inside everyone who just loves
+                            to try new things without any fear of failure.There are some awesome foods, ingredients
+                            and their recipes listed in our page along with the youtube lectures from our world
+                            class chefs.Food Studio is the ultimate reference destination for any cook in the world.
+                        </p>
+                    </div>
+                    <div class="col-sm-4 offset-md-1 py-4">
+                        <h4 class="text-white">Navigation</h4>
+                        <ul class="list-unstyled">
+                            <li><a href="./index.html" class="text-white">Home</a>
+                            </li>
+                            <li><a href="./search.html" class="text-white">Search By Name</a>
+                            </li>
+                            <li><a href="./favourites.html" class="text-white">Your Favourites</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="navbar navbar-dark bg-dark shadow-sm">
+            <div class="container">
+                <a href="#" class="navbar-brand d-flex align-items-center">
+                    <i class="fas fa-utensils mx-2"></i>
+                    <strong>Food Studio</strong>
+                </a>
+                <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- audio for 404 ERROR -->
+    <audio id="wrong-one">
+        <source src="./audio/failed.wav" type="audio/wav">
+    </audio>
+
+
+    <!-- search bar -->
+    <div class="search-box-container">
+        <div class="input-Box">
+            <input id="search-bar" type="text" placeholder="Search For Dishes....">
+            <!-- container which has autocomplete -->
+            <div class="autocom-Box">
+                
+            </div>
+            <div class="icon">
+                <i class="fas fa-search"></i>
+            </div>
+            <div class="close">
+                <a href="./index.html"></a>
+                <i class="fas fa-plus"></i>
+                <!-- <i class="fa-solid fa-circle-xmark"></i> -->
+            </div>
+            <!-- <i class="fa-solid fa-circle-xmark"></i> -->
+            
+        </div>
+    </div>
+
+    
+
+
+    <!-- custom javascript -->
+    
+    <script src="./JS/search.js"></script>
+    
+    
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
+    -->
+
+
+</body>
+
+</html>
