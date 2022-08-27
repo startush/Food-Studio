@@ -46,5 +46,5 @@ Simple reciepe app for the cook's reference using html,css and js
     search via category of the meal and the search box suggestions can be 
     improved
 ## Link
-    https://suriyaaap13.github.io/ChefRef/index.html
+    https://startush.github.io/Food-Studio/
 
